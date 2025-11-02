@@ -41,9 +41,9 @@ Een webapplicatie voor ziekenhuisbeheer, waarbij verschillende rollen (niet-inge
    ```bash
    npm install
    ```
-3. Start JSON-server:
+3. Start de backend server:
    ```bash
-   npm run dev
+   npm run simulateBackend
    ```
 4. Run de app:
    ```bash
