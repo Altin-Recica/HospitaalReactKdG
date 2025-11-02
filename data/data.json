@@ -1,0 +1,626 @@
+{
+  "roles": [
+    {
+      "id": 1,
+      "title": "Niet-aangemeld",
+      "ref": "niet-aangemeld",
+      "image": "niet-aangemeld.png"
+    },
+    {
+      "id": 2,
+      "title": "Patient",
+      "ref": "patient/1",
+      "image": "patient.png"
+    },
+    {
+      "id": 3,
+      "title": "Personeel",
+      "ref": "personeel",
+      "image": "personeel.png"
+    },
+    {
+      "id": 4,
+      "title": "Arts",
+      "ref": "arts",
+      "image": "arts.png"
+    }
+  ],
+  "afdeling": [
+    {
+      "id": 1,
+      "name": "Cardiologie",
+      "image": "Cardiologie.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Neurologie",
+      "image": "Neurologie.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Radiologie",
+      "image": "Radiologie.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Oncologie",
+      "image": "Oncologie.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Pediatrie",
+      "image": "Pediatrie.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Orthopedie",
+      "image": "Orthopedie.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Dermatologie",
+      "image": "Dermatologie.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Psychiatrie",
+      "image": "Psychiatrie.jpg"
+    }
+  ],
+  "kamers": [
+    {
+      "id": 1,
+      "kamernummer": 10,
+      "afdelingNaam": "Cardiologie",
+      "type": "basis",
+      "status": "Bezet",
+      "patientid": 1
+    },
+    {
+      "id": 2,
+      "kamernummer": 11,
+      "afdelingNaam": "Cardiologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 3,
+      "kamernummer": 12,
+      "afdelingNaam": "Cardiologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 4,
+      "kamernummer": 13,
+      "afdelingNaam": "Cardiologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 5,
+      "kamernummer": 14,
+      "afdelingNaam": "Cardiologie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 6,
+      "kamernummer": 15,
+      "afdelingNaam": "Cardiologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 7,
+      "kamernummer": 20,
+      "afdelingNaam": "Neurologie",
+      "type": "luxe",
+      "status": "Bezet",
+      "patientid": 2
+    },
+    {
+      "id": 8,
+      "kamernummer": 21,
+      "afdelingNaam": "Neurologie",
+      "type": "luxe",
+      "status": "Bezet",
+      "patientid": 3
+    },
+    {
+      "id": 9,
+      "kamernummer": 22,
+      "afdelingNaam": "Neurologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 10,
+      "kamernummer": 23,
+      "afdelingNaam": "Neurologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 11,
+      "kamernummer": 24,
+      "afdelingNaam": "Neurologie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 12,
+      "kamernummer": 25,
+      "afdelingNaam": "Neurologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 13,
+      "kamernummer": 30,
+      "afdelingNaam": "Radiologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 14,
+      "kamernummer": 31,
+      "afdelingNaam": "Radiologie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 15,
+      "kamernummer": 32,
+      "afdelingNaam": "Radiologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 16,
+      "kamernummer": 33,
+      "afdelingNaam": "Radiologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 17,
+      "kamernummer": 34,
+      "afdelingNaam": "Radiologie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 18,
+      "kamernummer": 35,
+      "afdelingNaam": "Radiologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 19,
+      "kamernummer": 40,
+      "afdelingNaam": "Oncologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 20,
+      "kamernummer": 41,
+      "afdelingNaam": "Oncologie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 21,
+      "kamernummer": 42,
+      "afdelingNaam": "Oncologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 22,
+      "kamernummer": 43,
+      "afdelingNaam": "Oncologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 23,
+      "kamernummer": 44,
+      "afdelingNaam": "Oncologie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 24,
+      "kamernummer": 45,
+      "afdelingNaam": "Oncologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 25,
+      "kamernummer": 50,
+      "afdelingNaam": "Pediatrie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 26,
+      "kamernummer": 51,
+      "afdelingNaam": "Pediatrie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 27,
+      "kamernummer": 52,
+      "afdelingNaam": "Pediatrie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 28,
+      "kamernummer": 53,
+      "afdelingNaam": "Pediatrie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 29,
+      "kamernummer": 54,
+      "afdelingNaam": "Pediatrie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 30,
+      "kamernummer": 55,
+      "afdelingNaam": "Pediatrie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 31,
+      "kamernummer": 60,
+      "afdelingNaam": "Orthopedie",
+      "type": "basis",
+      "status": "Bezet",
+      "patientid": 5
+    },
+    {
+      "id": 32,
+      "kamernummer": 61,
+      "afdelingNaam": "Orthopedie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 33,
+      "kamernummer": 62,
+      "afdelingNaam": "Orthopedie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 34,
+      "kamernummer": 63,
+      "afdelingNaam": "Orthopedie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 35,
+      "kamernummer": 64,
+      "afdelingNaam": "Orthopedie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 36,
+      "kamernummer": 65,
+      "afdelingNaam": "Orthopedie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 37,
+      "kamernummer": 70,
+      "afdelingNaam": "Dermatologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 38,
+      "kamernummer": 71,
+      "afdelingNaam": "Dermatologie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 39,
+      "kamernummer": 72,
+      "afdelingNaam": "Dermatologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 40,
+      "kamernummer": 73,
+      "afdelingNaam": "Dermatologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 41,
+      "kamernummer": 74,
+      "afdelingNaam": "Dermatologie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 42,
+      "kamernummer": 75,
+      "afdelingNaam": "Dermatologie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 43,
+      "kamernummer": 80,
+      "afdelingNaam": "Psychiatrie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 44,
+      "kamernummer": 81,
+      "afdelingNaam": "Psychiatrie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 45,
+      "kamernummer": 82,
+      "afdelingNaam": "Psychiatrie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 46,
+      "kamernummer": 83,
+      "afdelingNaam": "Psychiatrie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 47,
+      "kamernummer": 84,
+      "afdelingNaam": "Psychiatrie",
+      "type": "luxe",
+      "status": "Beschikbaar",
+      "patientid": 0
+    },
+    {
+      "id": 48,
+      "kamernummer": 85,
+      "afdelingNaam": "Psychiatrie",
+      "type": "basis",
+      "status": "Beschikbaar",
+      "patientid": 0
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "voornaam": "Sophia",
+      "naam": "Williams",
+      "rijksregisternummer": "12.34.56-789.01",
+      "geboortedatum": "1965-06-15",
+      "geslacht": "v",
+      "voorkeurVoeding": "vegetarisch",
+      "redenVanOpname": "Routinecontrole",
+      "opmerkingen": "Geen opmerkingen",
+      "image": "patient1.png",
+      "hulpNodig": false,
+      "medicatie": [
+        {
+          "medicatieid": 1,
+          "hoeveelheid": 500,
+          "time": "05:40:00",
+          "reden": "Pijnstilling",
+          "laatstEffectiefToegediend": "2024-11-06T04:42:51.321Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "voornaam": "Noah",
+      "naam": "Johnson",
+      "rijksregisternummer": "98.76.54-321.09",
+      "geboortedatum": "1950-12-01",
+      "geslacht": "m",
+      "voorkeurVoeding": "standaard",
+      "redenVanOpname": "Chirurgie",
+      "opmerkingen": "",
+      "image": "patient2.png",
+      "hulpNodig": false,
+      "medicatie": [
+        {
+          "medicatieid": 2,
+          "hoeveelheid": 500,
+          "time": "19:30:00",
+          "reden": "Ontstekingsremmer",
+          "laatstEffectiefToegediend": "2023-06-15T12:30:00.000Z"
+        },
+        {
+          "medicatieid": 4,
+          "hoeveelheid": 500,
+          "time": "19:30:00",
+          "reden": "Bloedverdunner",
+          "laatstEffectiefToegediend": "2023-06-15T12:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "voornaam": "Ethan",
+      "naam": "Brown",
+      "rijksregisternummer": "11.22.33-444.55",
+      "geboortedatum": "1999-02-29",
+      "geslacht": "m",
+      "voorkeurVoeding": "suikervrij",
+      "redenVanOpname": "Behandeling voor diabetes",
+      "opmerkingen": "Vereist rolstoeltoegang",
+      "image": "patient3.png",
+      "hulpNodig": false,
+      "medicatie": [
+        {
+          "medicatieid": 5,
+          "hoeveelheid": 500,
+          "time": "12:30:00",
+          "reden": "Bloedglucoseverlaging",
+          "laatstEffectiefToegediend": "2023-06-15T12:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "voornaam": "Klara",
+      "naam": "Van der Meer",
+      "rijksregisternummer": "33.44.55-666.77",
+      "geboortedatum": "1982-08-25",
+      "geslacht": "v",
+      "voorkeurVoeding": "standaard",
+      "redenVanOpname": "Routinecontrole",
+      "opmerkingen": "Geeft de voorkeur aan avondafspraken",
+      "image": "patient4.png",
+      "hulpNodig": false,
+      "medicatie": []
+    },
+    {
+      "id": 5,
+      "voornaam": "Fatima",
+      "naam": "Al-Fihri",
+      "rijksregisternummer": "22.33.44-555.66",
+      "geboortedatum": "1975-03-12",
+      "geslacht": "v",
+      "voorkeurVoeding": "vegetarisch",
+      "redenVanOpname": "Fysiotherapie",
+      "opmerkingen": "Allergisch voor penicilline",
+      "image": "patient5.png",
+      "hulpNodig": false,
+      "medicatie": [
+        {
+          "medicatieid": 1,
+          "hoeveelheid": 500,
+          "time": "12:00:00",
+          "reden": "Bloeddrukverlaging",
+          "laatstEffectiefToegediend": "2023-06-15T12:00:00.000Z"
+        },
+        {
+          "medicatieid": 9,
+          "hoeveelheid": 500,
+          "time": "12:30:00",
+          "reden": "Behandeling van allergieën",
+          "laatstEffectiefToegediend": "2023-06-15T12:00:00.000Z"
+        }
+      ]
+    }
+  ],
+  "medicatie": [
+    {
+      "id": 1,
+      "naam": "Paracetamol",
+      "vorm": "Tablet"
+    },
+    {
+      "id": 2,
+      "naam": "Ibuprofen",
+      "vorm": "Tablet"
+    },
+    {
+      "id": 3,
+      "naam": "Amoxicilline",
+      "vorm": "Capsule"
+    },
+    {
+      "id": 4,
+      "naam": "Aspirine",
+      "vorm": "Tablet"
+    },
+    {
+      "id": 5,
+      "naam": "Metformine",
+      "vorm": "Tablet"
+    },
+    {
+      "id": 6,
+      "naam": "Ciprofloxacine",
+      "vorm": "Tablet"
+    },
+    {
+      "id": 7,
+      "naam": "Omeprazol",
+      "vorm": "Capsule"
+    },
+    {
+      "id": 8,
+      "naam": "Simvastatine",
+      "vorm": "Tablet"
+    },
+    {
+      "id": 9,
+      "naam": "Loratadine",
+      "vorm": "Tablet"
+    },
+    {
+      "id": 10,
+      "naam": "Salbutamol",
+      "vorm": "Inhalator"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export {AddPatientDialog} from "./AddPatientDialog.tsx"
