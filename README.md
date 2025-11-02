@@ -1,60 +1,72 @@
 # Hospital React Project
 
-Examenproject 2024-2025
-Gebouwd met **React, TypeScript en Vite**.
+Exam project 2024-2025
+Built with **React, TypeScript, and Vite**.
 
-## Project Overzicht
-Een webapplicatie voor ziekenhuisbeheer, waarbij verschillende rollen (niet-ingelogd, patiënt, verplegend personeel, arts) toegang hebben tot specifieke functies.
+## Project Overview
 
-## Basisfunctionaliteit
-- **Niet-ingelogde gebruiker**: Bekijk afdelingen en kamers (plattegrond & lijst)
-- **Patiënt**: Bekijk eigen dossier, medicatie, vraag om hulp
-- **Verplegend personeel**: Bekijk en beheer patiënten, medicatie toedienen, kamers toewijzen
-- **Arts**: Medicatie toevoegen/verwijderen, patiënt gegevens beheren
+A web application for hospital management, where different roles (not logged in, patient, nursing staff, doctor) have access to specific features.
+
+## Core Functionality
+
+* **Not logged in user**: View departments and rooms (map & list)
+* **Patient**: View own record, medication, request assistance
+* **Nursing staff**: View and manage patients, administer medication, assign rooms
+* **Doctor**: Add/remove medication, manage patient information
 
 ## User Stories
-- Overzicht afdelingen en kamers
-- Medicatie schema bekijken en aanpassen
-- Patiënt gegevens aanpassen
-- Hulp oproepen beheren
-- Real-time updates via polling
+
+* Overview of departments and rooms
+* View and adjust medication schedule
+* Edit patient information
+* Manage assistance requests
+* Real-time updates via polling
 
 ## Wireframes & Usability Tests
-- Wireframes (mobile first) toegevoegd in `/wireframes`
-- Minimaal 3 key-task usability tests uitgevoerd
 
-## Technologieën
-- React 
-- TypeScript
-- Vite
-- React Router
-- React Query (of vergelijkbaar)
-- Bootstrap voor styling
-- JSON-server backend
+* Wireframes (mobile first) added in `/wireframes`
+* At least 3 key-task usability tests performed
 
-## Installatie
-1. Clone de repository:
+## Technologies
+
+* React
+* TypeScript
+* Vite
+* React Router
+* React Query (or similar)
+* Bootstrap for styling
+* JSON-server backend
+
+## Installation
+
+1. Clone the repository:
+
    ```bash
    git clone https://github.com/Altin-Recica/HospitaalReactKdG.git
    ```
-2. Installeer dependencies:
+2. Install dependencies:
+
    ```bash
    npm install
    ```
-3. Start de backend server:
+3. Start the backend server:
+
    ```bash
    npm run simulateBackend
    ```
-4. Run de app:
+4. Run the app:
+
    ```bash
    npm run dev
    ```
 
-## Opmerkingen
-- Rollen worden gesimuleerd via testknopjes
-- Polling gebruikt voor real-time updates
-- Responsive design voor mobiel, tablet en desktop
-- Plattegrond gebruikt absolute positioning t.o.v. parent container
+## Notes
 
-## Auteur
-**Altin Recica** – Examenproject KDG Hogeschool
+* Roles are simulated via test buttons
+* Polling used for real-time updates
+* Responsive design for mobile, tablet, and desktop
+* Map uses absolute positioning relative to parent container
+
+## Author
+
+**Altin Recica** – Exam project at KDG University College
